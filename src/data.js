@@ -10,6 +10,7 @@ export default[
         ],        
         "volume_langth":"0,5",
         "volume_unit":"кг",
+        "bottom_text":"Печень утки разварная с артишоками.",
         "soldout":false,
     },
     {
@@ -23,6 +24,7 @@ export default[
         ],   
         "volume_langth":"2",
         "volume_unit":"кг",
+        "bottom_text":"Головы щучьи с чесноком да свежайшая сёмгушка.",
         "soldout":false,
     },
     {
@@ -36,6 +38,7 @@ export default[
         ],   
         "volume_langth":"5",
         "volume_unit":"кг",
+        "bottom_text":"Филе из цыплят с трюфелями в бульоне.",
         "soldout":true,
     },
 ]

@@ -27,8 +27,8 @@ export default class Pack extends PureComponent{
 
         const bottomText=pack.soldout?<span>Печалька, с курой закончился.</span>
                                      : this.state.selected ? 
-                                     <span>Головы щучьи с чесноком да свежайшая сёмгушка.</span>
-                                     :<span>Чего сидишь? Порадуй котэ, <span className="pack_buy" onClick={this.handleClick}>купи</span></span>
+                                                        <span>{pack.bottom_text}</span>
+                                                        :<span>Чего сидишь? Порадуй котэ, <span className="pack_buy" onClick={this.handleClick}>купи</span></span>
         
         
         return(
