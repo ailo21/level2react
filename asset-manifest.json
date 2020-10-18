@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/level2react/static/css/main.79c0ded9.chunk.css",
+    "main.css": "/level2react/static/css/main.fb50995e.chunk.css",
     "main.js": "/level2react/static/js/main.cc1e1be2.chunk.js",
     "main.js.map": "/level2react/static/js/main.cc1e1be2.chunk.js.map",
     "runtime-main.js": "/level2react/static/js/runtime-main.21d69399.js",
@@ -8,16 +8,16 @@
     "static/js/2.1d46fd95.chunk.js": "/level2react/static/js/2.1d46fd95.chunk.js",
     "static/js/2.1d46fd95.chunk.js.map": "/level2react/static/js/2.1d46fd95.chunk.js.map",
     "index.html": "/level2react/index.html",
-    "precache-manifest.a293a37969230b8ae6d4794a07e6878c.js": "/level2react/precache-manifest.a293a37969230b8ae6d4794a07e6878c.js",
+    "precache-manifest.b8beb9bb661f2b54715b40ec38455448.js": "/level2react/precache-manifest.b8beb9bb661f2b54715b40ec38455448.js",
     "service-worker.js": "/level2react/service-worker.js",
-    "static/css/main.79c0ded9.chunk.css.map": "/level2react/static/css/main.79c0ded9.chunk.css.map",
+    "static/css/main.fb50995e.chunk.css.map": "/level2react/static/css/main.fb50995e.chunk.css.map",
     "static/js/2.1d46fd95.chunk.js.LICENSE.txt": "/level2react/static/js/2.1d46fd95.chunk.js.LICENSE.txt",
     "static/media/main.css": "/level2react/static/media/cat__opacity.4008fe17.png"
   },
   "entrypoints": [
     "static/js/runtime-main.21d69399.js",
     "static/js/2.1d46fd95.chunk.js",
-    "static/css/main.79c0ded9.chunk.css",
+    "static/css/main.fb50995e.chunk.css",
     "static/js/main.cc1e1be2.chunk.js"
   ]
 }
