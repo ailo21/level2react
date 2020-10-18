@@ -1,5 +1,5 @@
 import React,{ PureComponent} from 'react';
-
+import './style.css';
 
 export default class Pack extends PureComponent{
     constructor(props){

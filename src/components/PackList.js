@@ -1,5 +1,5 @@
-import React, {PureComponent} from 'react'
-import Pack from './Pack'
+import React, {PureComponent} from 'react';
+import Pack from "./Pack";
 
 export default class PackList extends PureComponent{
 
@@ -9,8 +9,7 @@ export default class PackList extends PureComponent{
             <Pack
                 pack={pack}
                 key={pack.id}
-            />
-  
+            />  
         )
 
         return(

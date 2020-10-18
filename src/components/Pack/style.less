@@ -1,0 +1,167 @@
+@color_def: #1698d9;
+@color_selected: #d91667;
+@color_soldout: #b3b3b3;
+
+.pack {
+    flex-basis: 320px;
+    max-width: 320px;
+    color: #000;
+    position: relative;
+
+    .pack_header {
+        background-color: #f2f2f2;
+        border-color: @color_def;
+        border-top: 1px solid;
+        border-right: 1px solid;
+        margin-left: 45px;
+        height: 41px;
+        border-top: 4px solid @color_def;
+        border-right: 4px solid @color_def;
+        border-top-right-radius: 13px;
+        color: #666666;
+        font-size: 1em;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            background: linear-gradient(-45deg, #f2f2f2, #f2f2f2 28.7px, #1698d9 0, #1698d9 32.7px, transparent 0);
+
+        }
+
+        span {
+            padding: 17px 0 0 2px;
+            display: block;
+        }
+
+    }
+
+    .pack_content {
+        border-right: 4px solid @color_def;
+        border-bottom: 4px solid @color_def;
+        border-left: 4px solid @color_def;
+        border-bottom-right-radius: 13px;
+        ;
+        border-bottom-left-radius: 13px;
+        background-color: #f2f2f2;
+        position: relative;
+        padding: 0 45px 0;
+        min-height: 431px;
+        margin: 0 0 14px;
+        background-image: url('../../img/cat.png');
+        background-repeat: no-repeat;
+        background-position: left -4px bottom -4px;
+
+        h4 {
+            margin: 0 -3px;
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        span.pack_postname {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 0.88em;
+            color: #666;
+
+            span {
+                display: block;
+            }
+        }
+
+        .volume {
+            width: 81px;
+            height: 81px;
+            ;
+            background-color: @color_def;
+            color: #fff;
+            position: absolute;
+            bottom: 11px;
+            right: 12px;
+            border-radius: 50%;
+            text-align: center;
+
+            .volume_lemgth {
+                font-size: 2.7em;
+                padding-top: 6px;
+            }
+
+            .volume_unit {
+                line-height: 9px;
+                font-size: 1.3em;
+            }
+        }
+    }
+
+    .pack_bottom {
+        text-align: center;
+        color: #fff;
+        font-size: 0.8em;
+    }
+
+    &.is-soldout {
+        .pack_header {
+            border-top: 4px solid @color_soldout;
+            border-right: 4px solid @color_soldout;
+
+            &:before {
+                background: linear-gradient(-45deg, #f2f2f2, #f2f2f2 28.7px, @color_soldout 0, @color_soldout 32.7px, transparent 0);
+            }
+        }
+
+        .pack_content {
+            border-right: 4px solid @color_soldout;
+            border-bottom: 4px solid @color_soldout;
+            border-left: 4px solid @color_soldout;
+            background-image: url(../../img/cat__opacity.png);
+
+            &>* {
+                opacity: .5;
+            }
+
+            .volume {
+                background-color: #b3b3b3;
+            }
+        }
+
+        .pack_bottom {
+            color: #ffff66;
+        }
+
+    }
+
+    &.is-selected {
+        .pack_header {
+            border-top: 4px solid @color_selected;
+            border-right: 4px solid @color_selected;
+
+            &:before {
+                background: linear-gradient(-45deg, #f2f2f2, #f2f2f2 28.7px, @color_selected 0, @color_selected 32.7px, transparent 0);
+            }
+        }
+
+        .pack_content {
+            border-right: 4px solid @color_selected;
+            border-bottom: 4px solid @color_selected;
+            border-left: 4px solid @color_selected;
+
+            .volume {
+                background-color: @color_selected;
+            }
+        }
+    }
+}
+.pack_buy{
+    border-bottom: 1px solid @color_def;
+    border-bottom-style: dashed;
+    color: @color_def;
+    cursor: pointer;
+}
