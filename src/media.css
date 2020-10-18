@@ -39,18 +39,20 @@
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .container {
-    max-width: 100%;
-  }
-}
 /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
 @media (min-width: 481px) and (max-width: 767px) {
   .container {
-    max-width: 100%;
+    max-width: 481px;
+    padding: 0 15px;
+  }
+  .packs-block .pack-list {
+    display: flow-root;
+  }
+  .packs-block .pack-list .pack {
+    margin-bottom: 20px;
   }
 }
 /* 
@@ -59,6 +61,13 @@
   */
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
-    max-width: 100%;
+    max-width: 320px;
+    padding: 0 15px;
+  }
+  .packs-block .pack-list {
+    display: flow-root;
+  }
+  .packs-block .pack-list .pack {
+    margin-bottom: 20px;
   }
 }
